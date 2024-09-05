@@ -1,38 +1,20 @@
-Stopwatch Web Application
-A simple and interactive stopwatch web application built using HTML, CSS, and JavaScript. The stopwatch allows users to start, pause, reset, restart, and record lap times.
+# Stopwatch Web Application
 
-Features
-Start/Stop: Begin or pause the stopwatch at any time.
-Reset: Reset the stopwatch to zero.
-Restart: Reset the stopwatch and immediately start it again.
-Lap Times: Record multiple lap times without resetting the stopwatch.
-Responsive Design: The application is designed to be user-friendly and responsive across various devices.
-Getting Started
-Prerequisites
-To run this application, all you need is a web browser that supports HTML5, CSS3, and JavaScript.
+This project is a simple Stopwatch Web Application built using HTML, CSS, and JavaScript. The application allows users to start, stop, reset, and record lap times with a user-friendly interface.
 
-Installation
-Clone the Repository:
-git clone https://github.com/iamsreehariks/PRODIGY_WD_02
-Navigate to the Project Directory:
-cd stopwatch-web-app
-Open index.html in your web browser to start using the stopwatch.
-Usage
-Start: Click the "Start" button to begin the stopwatch.
-Pause: Click the "Pause" button to pause the stopwatch.
-Reset: Click the "Reset" button to reset the stopwatch to zero.
-Lap: Click the "Lap" button to record a lap time.
-Restart: Click the "Restart" button to reset the stopwatch and immediately start it again.
-Project Structure
-├── index.html        # Main structure of the application
-├── style.css         # Styling for the application
-└── app.js         # JavaScript for stopwatch functionality
-Technologies Used
-HTML5: Structure of the application.
-CSS3: Styling and layout.
-JavaScript: Core functionality for the stopwatch.
-Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue to suggest improvements or report bugs.
+## Features
 
-Acknowledgments
-This application is inspired by the need for a simple and intuitive stopwatch for tracking time.
+- **Start/Stop**: Allows the user to start or pause the stopwatch.
+- **Reset**: Resets the stopwatch back to 00:00:00.
+- **Lap Timer**: Records and displays lap times.
+
+## Technologies Used
+
+- **HTML**: Provides the structure and layout of the application.
+- **CSS**: Used for styling the interface, including any design elements like buttons, timer display, and layout.
+- **JavaScript**: Implements the core functionality of the stopwatch, including the timing logic, lap tracking, and event handling for the user interactions.
+
+.
+├── index.html      # The main HTML file for the stopwatch
+├── styles.css      # CSS file for styling the application
+└── script.js       # JavaScript file containing the stopwatch logic
